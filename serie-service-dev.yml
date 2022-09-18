@@ -1,7 +1,10 @@
 server:
   port: 8086
   
-# spring:
+spring:
+  zipkin:
+    base-url: http://localhost:9411/
+    enabled: true
 #   data:
 #     mongodb:
 #       authentication-database: admin
